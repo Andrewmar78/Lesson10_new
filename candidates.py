@@ -25,7 +25,7 @@ def candidate_list():
 
 def profile(candidate_number):
     """Функция печати данных кандидата"""
-    candidates_datas_all =[]
+    candidates_datas_all = []
     for candidate in range(len(candidates_datas)):
         if candidates_datas[candidate]["id"] == int(candidate_number):
             # print("img src = ", candidates_datas[candidate_number]["picture"])
